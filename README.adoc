@@ -5,7 +5,12 @@ Prints horizontal rules. C++ port of https://github.com/shyguys/hr.
 
 == Setup
 
-tbc
+Compile the source code to a directory in PATH, e.g.:
+
+[source, shell]
+----
+g++ $(pwd)/src/main.cpp $(pwd)/src/lib.cpp -o ~/bin/hr4cpp
+----
 
 == Usage
 
